@@ -18,7 +18,7 @@ while True:
     data = yourdata
     
     # optional code to encode your data into a string CMIIW
-    newuser = user.encode()
+    newdata = data.encode()
     
     # use this function to send your data to server.py
     UDPSock.sendto(newdata, addr)
