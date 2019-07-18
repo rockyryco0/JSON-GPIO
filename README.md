@@ -1,7 +1,7 @@
 # Raspberry Pi - Django - JSON 
 My project about how to display results from Sensor that works in Raspberry Pi.
 
-[Rockyryco0](https://github.com/rockyryco0/JSON-GPIO)
+[My Github Rockyryco0](https://github.com/rockyryco0/JSON-GPIO)
 
 Html file visit : [raspi/raspiapp/templates/raspiapp/json.html](https://github.com/rockyryco0/JSON-GPIO/blob/master/raspi/raspiapp/templates/raspiapp/json.html)
 
