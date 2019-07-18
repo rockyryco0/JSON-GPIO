@@ -2,15 +2,20 @@
 {% load staticfiles %}
 <html lang="en">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.json2html/1.2.0/jquery.json2html.min.js"></script>
+    <!-- This is an optional javascript function to display the bottom of your page when you reload the page -->
 <script language="javascript">
 setTimeout(function(){ window.scroll(0, document.documentElement.scrollHeight); });</script>
+    <!-- This is an optional javascript function to reload your page every 1 second ('1000' you can change it) -->
 <script language="javascript">
 setTimeout(function(){ window.location.reload(1); }, 1000); </script>
+    
 <head>
     <meta charset="UTF-8">
-    <title>JSON</title>
+    <title>JSON Page</title>
 </head>
+    <!-- here is some bootstrap to get your page looking good -->
 <link rel="stylesheet" href="{% static 'raspiapp/bootstrap.min.css' %}">
+    <!-- this is where you configure your html page -->
 <body>
     <table class="table">
         <thead class="thead-dark">
@@ -22,6 +27,7 @@ setTimeout(function(){ window.location.reload(1); }, 1000); </script>
         </thead>
 
         <tbody>
+            <!-- use this code to get your JSON from views.py ( name it as data2.sensor to get your sensor data from JSON file) -->
         {% for i in data2.sensor %}
         <tr>
             <th scope="row">{{ i.tinggi }} cm</th>
