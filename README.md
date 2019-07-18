@@ -12,4 +12,4 @@ To start your django project :
 - type : python manage.py runserver
 - open your browser and type localhost:8000/
 
-Visit my Instagram at @andrycodsh
+Visit my Instagram at [@andrycodsh](https://www.instagram.com/andrycodsh).
