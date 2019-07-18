@@ -1,4 +1,4 @@
-# Save as client.py
+# Save as client-server.py
 # Message Sender
 # PUT THIS FILE IN YOUR RASPBERRY PI
 
@@ -7,7 +7,7 @@ from socket import *
 import os
 
 
-host = "192.168.1.10" # set to IP address of target computer (configured as 192.168.1.10)
+host = "localhost" # set to IP address of target computer (you can make it with IP Adress)
 port = 12345
 addr = (host, port)
 UDPSock = socket(AF_INET, SOCK_DGRAM)
