@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.json2html/1.2.0/jquery.json2html.min.js"></script>
+<script language="javascript">
+setTimeout(function(){ window.scroll(0, document.documentElement.scrollHeight); });</script>
+<script language="javascript">
+setTimeout(function(){ window.location.reload(1); }, 1000); </script>
+<head>
+    <meta charset="UTF-8">
+    <title>JSON</title>
+</head>
+<link rel="stylesheet" href="{% static 'raspiapp/bootstrap.min.css' %}">
+<body>
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Tinggi air</th>
+            <th scope="col">Jarak air</th>
+            <th scope="col">Status gerbang</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for i in data2.sensor %}
+        <tr>
+            <th scope="row">{{ i.tinggi }} cm</th>
+            <th scope="row">{{ i.jarak }} cm</th>
+            <th scope="row">{{ i.status }}</th>
+        {% endfor %}
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

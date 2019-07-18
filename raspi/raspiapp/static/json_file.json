@@ -1,0 +1,69 @@
+{
+    "sensor": [
+        {
+            "jarak": "20.56",
+            "tinggi": "0.56",
+            "status": "terbuka"
+        },
+        {
+            "jarak": "21.06",
+            "tinggi": "1.06",
+            "status": "terbuka"
+        },
+        {
+            "jarak": "18.14",
+            "tinggi": "1.86",
+            "status": "terbuka"
+        },
+        {
+            "jarak": "19.14",
+            "tinggi": "0.86",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.35",
+            "tinggi": "0.65",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.42",
+            "tinggi": "0.58",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.43",
+            "tinggi": "0.57",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.43",
+            "tinggi": "0.57",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.45",
+            "tinggi": "0.55",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.95",
+            "tinggi": "0.05",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.89",
+            "tinggi": "0.11",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.95",
+            "tinggi": "0.05",
+            "status": "tertutup"
+        },
+        {
+            "jarak": "19.93",
+            "tinggi": "0.07",
+            "status": "tertutup"
+        }
+    ]
+}
