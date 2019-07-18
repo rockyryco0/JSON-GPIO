@@ -11,7 +11,7 @@ except FileNotFoundError:
     open("json_file.json", 'w')
 
 #Host a server
-host = "192.168.1.10" # use your host setting 
+host = "localhost" # use your host setting, you can make it with IP Adress
 port = 12345 
 buf = 1024
 addr = (host, port)
