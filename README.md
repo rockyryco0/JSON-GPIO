@@ -1,9 +1,9 @@
 # Raspberry Pi - Django - JSON 
 My project about how to display results from Sensor that works in Raspberry Pi.
 
-Html file visit : [raspi/raspiapp/templates/raspiapp/json.html](https://github.com/rockyryco0/JSON-GPIO/blob/master/raspi/raspiapp/templates/raspiapp/json.html).
+Html file visit : [raspi/raspiapp/templates/raspiapp/json.html](https://github.com/rockyryco0/JSON-GPIO/blob/master/raspi/raspiapp/templates/raspiapp/json.html)
 
-For views.py visit : raspi/raspiapp/views.py
+For views.py visit : [raspi/raspiapp/views.py](https://github.com/rockyryco0/JSON-GPIO/blob/master/raspi/raspiapp/views.py)
 
 To start your django project : 
 - open cmd.exe
