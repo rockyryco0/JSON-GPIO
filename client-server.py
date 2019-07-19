@@ -7,7 +7,7 @@ from socket import *
 import os
 
 
-host = "localhost" # set to IP address of target computer (you can make it with IP Adress)
+host = "localhost" # set to IP address of target computer (you can use localhost as well) 
 port = 12345
 addr = (host, port)
 UDPSock = socket(AF_INET, SOCK_DGRAM)
