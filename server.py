@@ -4,7 +4,7 @@ from socket import *
 import sys
 import json
 
-# creates file when the file is doesn't exists
+# creates file when the file doesn't exists
 try:
     open("json_file.json")
 except FileNotFoundError:
