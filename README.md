@@ -13,5 +13,3 @@ To start your django project :
 - change your directory to your django project where manage.py is located
 - type : `python manage.py runserver`
 - open your browser and type localhost:8000/
-
-Visit my Instagram at [@andrycodsh](https://www.instagram.com/andrycodsh).
